@@ -1,0 +1,281 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+body {
+  background-color: #0a0a0a; 
+  color: #333; 
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+nav {
+  background-color: #000000; 
+  color: #fff;
+  padding: 20px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+   color: #fff;
+   font-family: "Sigmar", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 48px;
+   text-decoration: none;
+   text-align: left;
+     
+}
+.nav-logo:hover{
+  color: #00aeff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-links a:hover {
+  color: #00aeff; 
+}
+
+
+.home {
+  height: 80vh;
+  background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-image: url(../assets/images/back.jpg);
+ 
+}
+
+.home img{
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
+
+}
+
+
+
+.home-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-container p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.about {
+  padding: 60px 10%;
+  background-color: #000000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.skills {
+  padding: 60px 10%;
+  background-color: #070707;
+}
+
+.skills h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skill h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skill-bar.html {
+  background-color: #61dafb;
+  width: 85%;
+}
+
+.skill-bar.css {
+  background-color: #61dafb;
+  width: 85%;
+}
+
+.skill-bar.js {
+  background-color: #d87225;
+  width: 25%;
+}
+
+.skill-bar.react {
+  background-color: #d87225;
+  width: 10%;
+}
+
+
+.projects {
+  background-color: #ffffff;
+  padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  
+}
+
+
+.myproject a {
+  font-size: 24px;
+  padding: 8px;
+  color: #333;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  
+}
+
+
+.myproject a:hover{
+  color: #00aeff;
+}
+
+.myproject p {
+  font-size: 16px;
+  padding: 0 15px 60px;
+  color: #777;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: auto;
+
+}
+
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+  padding: 20px 5%;
+  width: auto;
+  border-radius: 0%;
+   
+}
+
+footer p {
+  font-size: 14px;
+  text-align: center; 
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: auto;
+
+}
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: auto;
+  display: flex;
+  justify-content: center;
+}
+footer a:hover{
+  color: #00aeff;
+} 
+
